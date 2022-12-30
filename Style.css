@@ -1,4 +1,9 @@
-@import "compass/css3";
+body {
+  font-family: system-ui;
+  background: #232323;
+  color: white;
+  text-align: center;
+}
 
 // Colors
 
@@ -14,7 +19,7 @@ $sans: 'Source Sans Pro';
 body{ background: $gray; font-family: $sans; text-align: center; }
 h1{ font-weight: 200; color: rgba(white, 0.2); padding-top: 3rem; }
 
-//clock
+//Clock
 
 body {
     background: #232323;
@@ -22,7 +27,7 @@ body {
 
 .clock {
     position: absolute;
-    top: 95%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: #3c3659;

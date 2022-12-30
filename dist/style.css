@@ -27,7 +27,7 @@ body {
 
 .clock {
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: #3c3659;
@@ -36,3 +36,4 @@ body {
     letter-spacing: 7px;
    
 }
+   
